@@ -210,11 +210,13 @@ console.log(`Segunda cor da letra a: ${a}`)
 console.log(`Segunda cor da letra b: ${b}`)
 
 console.log('============ Condicionais do JS ==================')
+console.log('============ IF e ELSE ==================')
+
 //Condicional IF e ELSE
 //Horas do dia
-let horaAtual = 19                //Forma Manual
-let data = new Date()             //Data Atual
-//let horaAtual = data.getHours() //Pegando a hora da data atual
+//let horaAtual = 19                //Forma Manual
+let data = new Date()               //Data Atual
+let horaAtual = data.getHours()     //Pegando a hora da data atual
 
 if (horaAtual > 6 && horaAtual < 12){
   console.log("Bom dia!")
@@ -225,5 +227,41 @@ if (horaAtual > 6 && horaAtual < 12){
 } else {
   console.log('Boa Madrugada!')
 }
+
+console.log('============ SWITCH E CASE ==================')
+//acesso = comum, gerente e diretor
+let acesso
+acesso = 'novo'
+switch (acesso) {
+  case 'comum':
+    console.log('acesso comum')
+    break;
+
+  case 'gerente':
+    console.log('acesso gerente')
+    break;
+
+  case 'diretor':
+    console.log('acesso diretor')
+    break;  
+
+  default:
+    console.log('acesso negado')
+    break;
+}
+
+console.log('============ LAÇO, LOOP, FOR ==================')
+//for
+for(let i = 5; i >= 1; i--) {
+  if ( i % 2 !== 0) {
+    console.log(`o valor de i, com resto diferente de zero é ${i}`)
+  } else {
+    console.log(`o valor de i, com resto igual de zero é ${i}`)
+  }  
+}
+
+console.log('============ LAÇO, LOOP, WHILE ==================')
+
+
 
 
