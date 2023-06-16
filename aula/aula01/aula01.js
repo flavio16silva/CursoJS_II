@@ -26,12 +26,3 @@ let anos = 25 //Number
 let taAprovado = true //Booleano
 let sobrenome = undefined //Indefinido
 let corSelecionado = null //Nulo
-
-
-
-
-
-
-
-
-
