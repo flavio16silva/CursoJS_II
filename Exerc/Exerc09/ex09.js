@@ -4,7 +4,7 @@
 
  function mostrarPrimo(valor){
   for(i = 2; i <= valor; i++){
-        if(NumeroPrimo(valor)) console.log(i)
+        if(NumeroPrimo(valor)) console.log(`O numero primo é:`,i)
     }
   }
   //if (primo) console.log(i)
