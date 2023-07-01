@@ -1,4 +1,4 @@
-//Funções de Fábrica
+//Funções de Fábrica - Factory Functions============================
 const celular = {
   marcaCelular: 'ASUS',
   tamanhoTela: 150,
@@ -9,7 +9,7 @@ const celular = {
 //Encapsula essa informação, dentro de um metodo que cria um objeto.
 
 function criarCelular(marcaCelular, tamanhoTela, bateria, cor){
-  return {                      //retornando o objeto
+  return {                         //retornando o objeto, um novo objeto
   //const celular = {
     marcaCelular, //marcaCelular, //'ASUS',    //deve ser um parametro do metodo, para ficar dinâmico.
     tamanhoTela,  //tamanhoTela,  // 150,      Quando a "chave:valor" são iguais, basta deixar apenas um.
