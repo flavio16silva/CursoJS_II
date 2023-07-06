@@ -28,15 +28,15 @@ function Celular(marcaCelular,tamanhoTela,capacidadeBateria,cor) {
                 console.log("Fazendo ligação...")          //Aqui inserimos o código do bloco que será executado
     }                   
 }
-//Na função acima não tem o 'return', ela apenas define as propriedades e metodos.
+//Na função acima NÃO tem o 'return', ela apenas define as propriedades e metodos.
 
 
 
 //Criando o objeto, após as definições acima da função Celular ==============================
 
 const celular = new Celular('asus',5.5, 5000,'azul')
-//A palavra chave é new: criando, instanciando um objeto passando todas as propriedades que foram informadas na 'function Celular', atarves de um parametro: marcaCelular,tamanhoTela,capacidadeBateria,cor já definidos. 
-console.log(celular)                                          //Aqui será exibido na tela um celular com todas as suas propriedades ('asus',5.5, 5000,'azul')
+//A palavra chave é new: criando, instanciando um objeto passando todas as propriedades que foram informadas na 'function Celular', atraves de um parametro: marcaCelular,tamanhoTela,capacidadeBateria,cor já definidos. 
+console.log(celular)                           //Aqui será exibido na tela um celular com todas as suas propriedades ('asus',5.5, 5000,'azul')
 
 //A grande diferença entre:
 //Functions Factory: Faz a criação dentro da prórpia função, retornando um objeto novo (return).
