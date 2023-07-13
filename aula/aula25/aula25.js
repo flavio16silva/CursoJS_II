@@ -24,4 +24,3 @@ console.log('----- Depois da Arrow Function ----------')
 console.log(marcas.find((marca) => marca.nome === 'GM'))
 
 
-
