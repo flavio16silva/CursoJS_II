@@ -11,7 +11,7 @@ let podeDirigir = maiorIdade && cnh
 console.log(podeDirigir)
 
 //Disjunção
-console.log('============ Disjunção && ================')
+console.log('============ Disjunção || ================')
 let maiorAltura = false
 let Salto = true
 let podePular = maiorAltura || Salto
@@ -47,3 +47,6 @@ let corPersona = 'vermelho'
 let corPadrao = 'azul'
 let corPerfil = corPersona || corPadrao //basta ter uma das condições ser verdadeira.
 console.log(corPerfil)
+
+//let oi  = false || 1 || 0
+//console.log(oi)
