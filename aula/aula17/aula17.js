@@ -19,15 +19,15 @@ const celular = {
 
 //Armazenando o 'object.assign' em um novo objeto: 'const novoObjeto'
 
-/* ========== Nesse momento testando a impressão do objeto clonado ================
-const novoObjeto = Object.assign({},celular)
-console.log(novoObjeto) //Impressão para ver o novoObjeto
- */
+//========== Nesse momento testando a impressão do objeto clonado ================
+//const novoObjeto = Object.assign({},celular)
+//console.log(novoObjeto) //Impressão para ver o novoObjeto
+ 
 
 // ====== Podemos ADICIONAR novas propriedades ao objeto ===============
-const novoObjeto = Object.assign({
+ const novoObjeto = Object.assign({
   formato: 'slim'
-},celular)
+   },celular)
 console.log(novoObjeto) //Impressão do novoObjeto, com a nova propriedade.
 
 

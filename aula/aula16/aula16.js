@@ -8,7 +8,7 @@ const mouse = {
 }
 //Pelo dinamismo do JS se tentarmos "INCLUIR/ADICIONAR" uma nova propriedade como exemplo abaixo, já irá mostrar no console.log.
 mouse.preco = 50 //Exemplo de inclusão de nova propriedade com dinamismo do JS.
-
+//mouse.tipo = 'redondo'
 //Da mesma forma sobre o objeto acima, podemos INCLUIR/ADICIONAR um metodo conforme exemplo abaixo:
 //Função:
 mouse.trocarPreco = function () {
@@ -19,4 +19,5 @@ mouse.trocarPreco = function () {
 //Aqui DELETAMOS a propriedade 'cor', como exemplo.
 delete mouse.cor //Ex.: DELETANDO propriedade
 delete mouse.trocarPreco //Ex.: DELETANDO metodo
+//delete mouse.tipo
 console.log(mouse) //Na impressão vemos que o objeto já encontra-se pronto.

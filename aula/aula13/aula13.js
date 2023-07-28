@@ -10,7 +10,7 @@ let resultado = fizzBuzz() //Digitar um valor aqui
 console.log(resultado)
 
 function fizzBuzz(i) {
-  //for( let i = 1; i <= 10; i++ ) { Forma automática pelo laço FOR
+  //for( let i = 1; i <= 10; i++ ) { //Forma automática pelo laço FOR
     if(i % 3 === 0 && i % 5 === 0){
         console.log('FizzBuzz')
     }else if (i % 3 === 0) {

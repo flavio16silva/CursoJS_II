@@ -35,8 +35,8 @@ const gente = {
 } 
 
 for (let chave in gente) {
-  //console.log(chave)
-  console.log(chave,gente[chave])
+  //console.log(chave) //impressão apenas das propriedades
+  console.log(chave,gente[chave]) //impressão da propriedade e do valor
 }
 
 const palheta = ['preto', 'caramelo', 'roxo', 'cinza']
