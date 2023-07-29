@@ -1,9 +1,9 @@
 // Removendo elementos do Array
 
 const numeros = [1, 2, 3, 4, 5, 6]
-numeros.splice() 
-numeros.unshift()
-numeros.push()
+//numeros.splice() 
+//numeros.unshift()
+//numeros.push()
 console.log('---- ARRAY PRINCIPAL ------')
 console.log(numeros)
 
@@ -24,3 +24,13 @@ console.log('---- REMOVENDO NO FINAL DO ARRAY ------')
 const ultimo = numeros.pop()
 console.log(`O número ${ultimo} foi removido`)
 console.log(numeros)
+
+const teste = numeros.length
+console.log(teste)
+
+// ==================================
+// const myFish = ["angel", "clown", "mandarin", "surgeon"]
+// console.log(myFish)
+// const oi = myFish.splice(2,1)
+// console.log(oi)
+// console.log(myFish)

@@ -17,5 +17,5 @@ console.log(Math.random())
 //A função Math.max() retorna o maior de um ou mais números.
 console.log(Math.max(10, 2, 55, 1))
 
-//A função Math.min() retorna o maior de um ou mais números.
+//A função Math.min() retorna o menor de um ou mais números.
 console.log(Math.min(10, 2, 55, 19))

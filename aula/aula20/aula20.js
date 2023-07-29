@@ -14,6 +14,8 @@ const nome = 'Leco'
 const email = 
 `Olá ${nome}, Bom fazer parte de seu time de trabalho. Obrigado pelo retorno`
 
+console.log(outraMensagem)
+console.log(email)
 
 
 

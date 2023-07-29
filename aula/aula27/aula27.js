@@ -13,15 +13,15 @@ console.log(outros) //não apaga o array
 //Solução 2:
 //Apagando as referencias do array. Pode ser o metodo mais simples e mais limpo de uso.
 console.log('-------ATRIBUINDO VALOR ZERO AO ARRAY -----------')
-numeros.length = 0 //Ao atrabuir a zero vc tá apagando todas as referencias do array
+numeros.length = 0 //Ao atribuir a zero vc tá apagando todas as referencias do array
 console.log(numeros) // retorna o array vazio - []
 console.log(outros) //também estará vazio  - []
 
 //Solução 3:
-//Podemos usar o metodo splice() - sempre pega um valor inicial e pode apagar quantos objetos nós queremos.
+//Podemos usar o metodo slice() - sempre pega um valor inicial e pode apagar quantos objetos nós queremos.
 //Para saber quantos objetos temos dentro de um array basta usar .lenght
 console.log('-------METODO SLICE() PARA APAGAR ARRAY --------------')
-numeros.splice(0, numeros.length)
+numeros.slice(0, numeros.length)
 console.log(numeros)
 console.log(outros)
 
