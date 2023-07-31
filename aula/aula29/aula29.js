@@ -26,7 +26,7 @@ console.log(cortado)
 //[...arrayName].
 //Exemplo [...primeiro], que irá criar uma nova cópia do array "primeiro".
 
-console.log('---- Array com uso do Spread -----')
+console.log('---- Array com uso do Spread. Ex.: [...primeiro, ...segundo] -----')
 const unidos = [...primeiro, ...segundo]
 console.log(unidos)
 
@@ -34,7 +34,7 @@ console.log(unidos)
 const inicio = [10, 20, 30]
 const fim = [40, 50, 60]
 const tudo = [...inicio, 'a', ...fim, '&']
-console.log('---- Array com uso do Spread (Inserção de strings) -----')
+console.log('---- Array com uso do Spread (Inserção de strings):  -----')
 console.log(tudo)
 
 console.log('---- Array com uso do Spread (Clonagem de array) -----')

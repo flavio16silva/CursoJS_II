@@ -17,6 +17,7 @@ const frase = 'ola bem vindos a aula'
 const separa = frase.split(' ')
 console.log(separa)
 
+console.log('--- JOIN: JUNTANDO COM TRAÇOS ---')
 console.log(separa.join('-')) //JUNTANDO NOVAMENTE POR TRAÇOS.
 
 
